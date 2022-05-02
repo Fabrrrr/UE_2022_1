@@ -1,0 +1,21 @@
+https://docs.google.com/document/d/1H8MopGmzI71e0YoSnhiQ-P1aufsCw4ulnU4ScXUWSpE/edit?usp=sharing
+(as imagens n estão indo, então botei aqui um link pro docx)
+
+-------------------------------------------------Level Design U4---------------------------------------------------------------
+Para Level Design e World Building, o primeiro passo é uma boa blocagem dentro da Unreal.
+A partir das formas básicas usando a Geometry tool da Unreal criei dimensões seguindo uma regra básica de modelagem 3d,
+primeiro fazer formas maiores(primárias) que dão característica e depois formas menores(secundárias).
+
+A Segunda preocupação é com a borda do mundo e a ambientação, que pode ser traduzido como “O que está além dos modelos''.
+Por exemplo, quando modelei uma ponte,eu tinha que decidir o que teria em baixo, dos lados e para onde o jogador estava indo.
+
+Por fim, mas não menos importante, o último passo da blocagem é arrumar a composição do cenário.
+Como todos esses elementos básicos na tela, juntos, contam alguma historinha ao jogador.
+Para reaproveitar parte da blocagem, a Unreal permite por shaders nas formas do Geometry, transformando um bloco sem vida em um chão de pedra.
+
+A próxima etapa é modelar itens do cenário e NPC’s. Seguindo a escala de 1:1 blender para unreal com personagem.
+Os arquivos devem ser exportados como uma malha única (ou agrupados em uma categoria única) em formato “.fbx".
+Para seguir a arte do jogo, os objetos devem possuir um nível de resolução parecido com base no quão expostos vão estar com o jogador. 
+Um objeto pequeno que vai ser visto de longe, não há necessidade de ser muito detalhado e até ter faces apagadas para optimizar o desempenho do jogo,
+diferente de um NPC que interage com o jogador.
+
